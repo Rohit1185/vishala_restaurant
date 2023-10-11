@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Source+Code+Pro&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+header{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.849);
+    font-family: 'Courier New', Courier, monospace;
+    width: 1465px;
+}
+/*This is for phone icon*/
+
+.fa-phone{
+    color: white;
+    margin-left: 50px;
+    padding-top:10px;
+    padding-bottom: 50px;
+}
+.icon{
+    padding-right: 10px;
+}
+/*This is for Phone number*/
+.header-contact{
+    display: flex;
+    color: aliceblue;
+    padding: 10px;
+    padding-top: 20px;
+}
+/*This is for Print icon*/
+.print-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+/*This is for print Numebr*/
+.header-print{
+    margin-top: 10px;
+}
+/*this is for img*/
+.img{
+   margin-left: 20%;
+}
+/*this is for social media links*/
+.social-media{
+    margin-left: 30%;
+    padding: 20px;
+}
+/*for icons padding*/
+.social-media .fa{
+    padding: 5px;
+}
+/*this is for icon links*/
+.social-media a{
+    text-decoration: none;
+    color: white;
+}
+.social-media a:hover{
+    color: #c5ae75;
+}
+.navbar {
+    overflow: hidden;
+    margin-left: 19%;
+  }
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar:active{
+    color: #c5ae75;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+   color: #c5ae75;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.849);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: aliceblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /*this part for home page img*/
+.many-img{
+    width: 1465px;
+    overflow: hidden;
+}
+/*this is for main content img*/
+.img1{
+    text-align: center;
+    padding: 10px 50px;
+}
+#img1{
+    text-align: center;
+}
+.main-content{
+    padding-top: 100px;
+}
+.sub-content{
+    text-align: justify;
+    width: 900px;
+    margin-left: 20%;
+}
+.sub-content p{
+    font-size: larger;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+    max-width: 930px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+}
+.sub-content a{
+    text-decoration: none;
+    color: #c5ae75;   
+}
+.member-img img{
+    padding-top: 50px;
+    margin-left: 10%;
+}
+.sub-img{
+    display: flex;
+}
+.child-img img{
+    width: 488px;
+}
+.sub-img2{
+    display: flex;
+}
+.child-img-2{
+    padding-top: 30px;
+    width: 488px;
+}
+.menu-info{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+.menu-info h1{
+    font-size: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.our-text{
+    font-size: larger;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+    max-width: 930px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+}
+.menu-item-img{
+    display: flex;
+}
+.menu-item-img img{
+    padding: 0px 30px;
+}
+.button{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 800;
+}
+.button button{
+    margin-left: 45%;
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    background-color: #c5ae75;
+    cursor: pointer;
+    outline: #c5ae75;
+    border: #c5ae75;
+    color: white;
+    font-size: small;
+}
+.button button:hover{
+    background-color: white;
+    color: #c5ae75;
+    border: 1px solid #c5ae75;
+}
+.button a{
+    text-decoration: none;
+}
+.booking{
+    background: url(https://www.vishalla.com/images/booking-bg.jpg);
+    text-align: center;
+}
+.booking-info{
+    font-size: larger;
+    color: white;
+    padding-top: 80px;
+}
+.booking-info img{
+    padding-top: 50px;
+}
+.info{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 600px;
+    margin-left: 30%;
+    letter-spacing: 1px;
+}
+.desginer{
+    margin-left: 100px;
+    padding: 50px 0px;
+}
+#h1{
+    font-family: 'Bickley Script LET';
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+#h5{
+    color: #c5ae75;
+    font-weight: lighter;
+}
+.desginer img{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.designer-info{
+    display: flex;
+    width: 1200px;
+    font-size: larger;
+    font-size: 18px;
+    color: #000;
+}
+.desginer-img{
+    margin-top: -70px;
+    margin-left: 50px;
+}
+#button button{
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    background-color: #c5ae75;
+    cursor: pointer;
+    outline: #c5ae75;
+    border: #c5ae75;
+    color: white;
+    font-size: small;
+}
+#button button:hover{
+    color: #c5ae75;
+    background-color: white;
+    border: 1px solid #c5ae75;
+}
+.footer{
+    display: flex;
+    font-weight: bold;
+}
+.footer-info{
+    padding: 20px 150px;
+    text-align: center;
+    padding-top: 100px;
+}
+.child{
+    padding: 20px 0px;
+}
+
+/* About page CSS  */
+
+.content1{
+    display: flex;
+    padding-top: 50px;
+}
+.information{
+    /* padding-left: 150px; */
+    width: 600px;
+    display: inline-block;
+    margin: 0 140px;
+    padding: 15px 0;
+    text-align: left;
+    max-width: 930px;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 1px;
+}
+.information-img img{
+    height: 300px;
+    width: auto;
+    padding-left: -50px;
+}
+.content2{
+    margin-top: 150px;
+    display: flex;
+    padding-left: 150px;
+}
+
+/* This is for Designer page */
+.disgnor{
+    display: flex;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.designer-surendra{
+    padding-left: 150px;
+    width: 600px;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.disgnor img{
+    padding-top: 100px;
+    padding-left: -150px;
+    height: 400px;
+    width: 400px;
+}
+#vishala-img{
+    padding-bottom: 50px;
+}
+/* This is for attrction page */
+#img1{
+    padding-top: 200px;
+}
+#img2{
+    padding-top: 10px;
+}
+#img{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.p{
+    padding-left: 150px;
+}
+.attration{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.text{
+    padding-left: 150px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    width: 600px;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.attration img{
+    height: 300px;
+    width: auto;
+    padding-left: 150px;
+}
+#vishala-img{
+    padding-bottom: 40px;
+}
+
+/*This is for food page*/
+.food{
+    display: flex;
+}
+.food img{
+    width: 300px;
+    height: 300px;
+    padding: 40px 30px;
+}
+
+#p{
+    text-align: center;
+    line-height: 3em;
+    font-weight: bold;
+}
+.book{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.book-info{
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.book-info h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.book-info p{
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+.ul{
+    display: flex;
+}
+.book-ul{
+    padding:   20px 100px;
+    font-size: larger;
+}
+.price{
+    font-size: large;
+    line-height: 2em;
+    font-weight: 400;
+}
+.guest-header{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.guest-header p{
+    padding-top: 30px;
+    padding: 10px;
+    font-weight: 600;
+}
+.guest-child{
+    display: flex;
+    padding-bottom: 50px;
+}
+.guest-child img{
+    height: 240px;
+    width: 348px;
+    padding: 10PX;
+}
+.guest-child p{
+    text-align: center;
+    font-size:medium;
+    padding-bottom: 20px;
+}
+.museum-header{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    line-height: 2em;
+}
+.museum-header p{
+    padding: 5px;
+}
